@@ -4,13 +4,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import org.json.*;
+
 public class Noise extends Thread {
     private String id;
-    private NoiseMaker mother;
+    private NoiseMain mother;
     private int count = 0;
 
-    public Noise(String id, NoiseMaker mother) {
+    public Noise(String id, NoiseMain mother) {
         this.id = id;
         this.mother = mother;
     }
