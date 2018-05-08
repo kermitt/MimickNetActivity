@@ -1,0 +1,22 @@
+{
+  "name": "toy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/tdd.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "callsite": "^1.0.0",
+    "cli-color": "^1.2.0",
+    "request": "^2.83.0",
+    "superagent": "^3.8.0",
+    "asyncawait": "^1.0.6",
+    "request-promise": "^4.2.2",
+    "urllib": "^2.25.1",
+    "async": "2.5.0"
+  }
+}
